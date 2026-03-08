@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 import axios from "axios"
 
-const API = "http://localhost:8000"
+const API = "https://ai-business-automation-engine-production.up.railway.app"
 
 function AnimatedCounter({ target, duration = 1500, prefix = "", suffix = "" }) {
   const [count, setCount] = useState(0)

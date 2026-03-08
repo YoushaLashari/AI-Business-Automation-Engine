@@ -1,7 +1,7 @@
 import { useState, useRef } from "react"
 import axios from "axios"
 
-const API = "http://localhost:8000"
+const API = "https://ai-business-automation-engine-production.up.railway.app"
 
 const PIPELINE_STEPS = [
   { icon: "📁", label: "Input Agent", desc: "Receiving & validating file" },
