@@ -9,3 +9,5 @@ sqlalchemy
 python-dotenv
 ollama
 loguru
+groq
+pypdfium2
